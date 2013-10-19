@@ -1,0 +1,38 @@
+
+:lang(el) { font-family: Gentium; font-size: 15px; }
+
+:lang(he) { direction: rtl; font-family: "SBL Hebrew"; font-size: 19px; }
+
+#notepaper 
+{
+	background-image: url(/img/linedPaper.png);
+	font-family: 'Patric Hand', cursive;
+}
+
+.large
+{
+	font-size: 140%;
+
+}
+a
+{
+	color: inherit;
+	font-weight: bold;
+	
+}
+a:hover,
+a:focus
+{
+	color: #C7B109;
+}
+.jumbotron {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 1;
+  color: inherit;
+  background-color: #1c1e22;
+}
+
+

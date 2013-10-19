@@ -1,0 +1,103 @@
+
+<html>
+<head>
+		<title>Join</title>
+	<meta content="" name="description">
+<meta content="" name="author">
+<link href="img/giitr.png" rel="shortcut icon">
+	<meta charset ="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css">
+	
+	<link href="css/custom.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript"> </script>
+</head>
+
+<body>
+ 	
+ 
+<div class="navbar-wrapper">
+<div class="navbar navbar-default navbar-static-top">
+		<div class="navbar-header">
+		 <a class="navbar-brand" href="welcome.html">The Room</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" glyphicon ="glyphicon-chevron-down">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		    
+		</div>  
+		<div class="navbar-collapse collapse" style="height: 1px;">
+          <ul class="nav navbar-nav">
+					<li ><a href="welcome.html">HomePage</a></li>
+	            <li><a href="study.html">Study</a></li>
+	            <li><a href="knowledge.html">Knowledge</a></li>
+	            <li><a href="Leader.html">Leader</a></li>
+	            <li><a href="Forum/index.php">Forum</a></li>
+	            <li class="active"><a href="demo/user-man.html">Join</a></li>
+	      </ul>          
+		</div>
+		</div>
+		</div>
+<div class="container">
+
+   <div class="jumbotron" style="background: url(img/room-bg.jpg)"> 
+   
+    				<h1 align="right" style = "text-shadow: #000000 2px -2px 1px"><font color = "C7B109"> God is in the room 
+    				<h2 style = "text-shadow: #000000 2px -2px 1px" ><br>Join</h2>
+    				</font></h1>
+														
+					</div>			
+					</div>	
+<div class="container">
+	<div class="row-fluid">	
+	
+	<h3>This page is under construction, please check back frequently to observe the progress. </h3>	
+	<h1>Create a new user</h1>
+	<p>
+	<form action="user-man.php" method="POST">
+	<input type="hidden" name="op" value="new">
+	Username:<br>
+	<input type="text" name="user" size="60"><br>
+	Password:<br>
+	<input type="password" name="pass" size="60"><br>
+	<button type="submit" class="btn btn-default">Create user</button>
+	</form>
+	<h1>Log in</h1>
+	<p>
+	<form action="user-man.php" method="POST">
+	<input type="hidden" name="op" value="login">
+	Username:<br>
+	<input type="text" name="user" size="60"><br>
+	Password:<br>
+	<input type="password" name="pass" size="60"><br>
+	<!-- <input type="submit" value="Log in"> -->
+	<button type="submit" class="btn btn-default">Log in</button>
+	</form>
+	<h1>Change password</h1>
+	<p>
+	<form action="user-man.php" method="POST">
+	<input type="hidden" name="op" value="change">
+	Username:<br>
+	<input type="text" name="user" size="60"><br>
+	Current password:<br>
+	<input type="password" name="pass" size="60"><br>
+	New password:<br>
+	<input type="password" name="newpass" size="60"><br>
+	<!-- <input type="submit" value="Change password"> -->
+	<button type="submit" class="btn btn-default">Change password</button>
+	</form>
+	</div> 
+	</div>
+	<div class="span12">
+	<p>
+		This site is created by Christy Watson in cooperation with ..... . 
+	</p>
+</div>
+
+<script src="js/jquery-1.10.2.min.js"> </script>   
+    
+<script src="js/bootstrap.min.js"></script>	 
+</body>
+</html>

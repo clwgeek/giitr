@@ -1,0 +1,209 @@
+
+<html>
+<head>
+		<title>Submit</title>
+	<meta content="" name="description">
+<meta content="" name="author">
+<link href="img/giitr.png" rel="shortcut icon">
+	<meta charset ="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css">
+	
+	<link href="css/custom.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript"> </script>
+</head>
+
+<body>
+ 	
+ 
+<div class="navbar-wrapper">
+<div class="navbar navbar-default navbar-static-top">
+		<div class="navbar-header">
+		 <a class="navbar-brand" href="welcome.html">The Room</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" glyphicon ="glyphicon-chevron-down">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		    
+		</div>  
+		<div class="navbar-collapse collapse" style="height: 1px;">
+          <ul class="nav navbar-nav">
+					<li ><a href="welcome.html">HomePage</a></li>
+	            <li><a href="study.html">Study</a></li>
+	            <li><a href="knowledge.html">Knowledge</a></li>
+	            <li><a href="Leader.html">Leader</a></li>
+	            <li><a href="Forum/index.php">Forum</a></li>
+	            <li class="active"><a href="lessonSubmit.html">Lesson Submit</a></li>
+	            <li><a href="demo/user-man.html">Join</a></li>
+	      </ul>          
+		</div>
+		</div>
+		</div>
+<div class="container">
+
+   <div class="jumbotron" style="background: url(img/room-bg.jpg)"> 
+   
+    				<h1 align="right" style = "text-shadow: #000000 2px -2px 1px"><font color = "C7B109"> God is in the room 
+    				<h2 style = "text-shadow: #000000 2px -2px 1px" ><br>Lesson Submission</h2>
+    				</font></h1>
+														
+					</div>			
+					</div>		
+		
+	<div class="container">	
+		<div class="row-fluid">
+			<h2>Do you have a fantastic lesson that you would like to have on this site?  Submit the lesson using these forms.  All submissions will be reviewed and may be revised before posting.</h2>
+		</div>
+		</div>
+		<div class="container">
+		<div class="row-fluid">
+		<div class="span6">
+	<div class="well well-lg">	
+		<ul class="nav nav-tabs">
+		  <li class="active"><a href="#studentLesson" data-toggle="tab">Student</a></li>
+		  <li><a href="#leaderLesson" data-toggle="tab">Leader</a></li>
+		  <li><a href="#discussion" data-toggle="tab">Discussion</a></li>
+		  <li><a href="#thinkItThrough" data-toggle="tab">Think it Through</a></li>
+		</ul>
+
+		<div class="tab-content">
+		  <div class="tab-pane active" id="studentLesson">
+		  
+		   <div class="row-fluid" style="background: url(img/lightNoisy.png)">
+						<h4><font color="444444">
+							Fill in this form to create a student lesson.  If you don't want a title before a paragraph, leave the title field blank and the next paragraph will start without one.
+						</font></h4>
+				</div>
+				<div class="row-fluid">
+				<form class="form-horizontal" role="form">
+				<p><br>Enter discussion starter and hit "submit paragraph", when all paragraphs are entered hit "done"<br></p>
+				   <div class="form-group">
+					    <label class="sr-only" for="studentLesson">header</label>
+					    <input type="text" size="120" class="form-control input-sm" id="studentLessonHeader" placeholder="Enter Paragraph Header if desired">
+				    </div>
+				    <div class="form-group">
+					 <textarea class="form-control" rows="3" id="studentParagraph" placeholder="Enter discussion starter (only one paragraph at a time)">
+					 </textarea>
+					 </div>					
+						<div>
+						  <button type="submit" class="btn btn-default">Submit</button>
+						   <button type="submit" class="btn btn-default">Done</button>
+					  </div>
+				</form></div>
+		
+		  </div> <!-- student lesson -->
+		  
+		  <div class="tab-pane" id="leaderLesson">
+		   <div class="row-fluid" style="background: url(img/lightNoisy.png)">
+						<h4><font color="444444">
+							Fill in this form to create the more detailed leader lesson.  If you don't want a title before a paragraph, leave the title field blank and the next paragraph will start without one.
+						</font></h4>
+				</div>
+				<div class="row-fluid">
+				<form class="form-horizontal" role="form">
+				<p><br>Enter discussion starter and hit "submit paragraph", when all paragraphs are entered hit "done"<br></p>
+				   <div class="form-group">
+					    <label class="sr-only" for="leaderParagraphHeader">header</label>
+					    <input type="text" size="120" class="form-control input-sm" id="leaderParagraphHeader" placeholder="Enter Paragraph Header if desired">
+				    </div>
+				    <div class="form-group">
+					 <textarea class="form-control" rows="3" id="leaderParagraph" placeholder="Enter leader paragraph (only one paragraph at a time)">
+					 </textarea>
+					 </div>
+						<div>
+						  <button type="submit" class="btn btn-default">Submit</button>
+						   <button type="submit" class="btn btn-default">Done</button>
+					  </div>
+				</form></div>
+		  
+		  </div> <!-- leader lesson -->
+		  <div class="tab-pane" id="discussion">
+		  
+				  <div class="row-fluid" style="background: url(img/darkWood.png)">
+						<h4>
+							Fill in this form to create suggestions in the discussion starter section of the leader page.  If you don't want a title before your paragraph, leave the title field blank and the next paragraph will start.
+						</h4>
+				</div>
+				<div class="row-fluid">
+				<form class="form-horizontal" role="form">
+				<p><br>Enter discussion starter and hit "submit paragraph", when all paragraphs are entered hit "done"<br></p>
+				   <div class="form-group">
+					    <label class="sr-only" for="starterParagraphHeader">header</label>
+					    <input type="text" size="120" class="form-control input-sm" id="paragraphHeader" placeholder="Enter Paragraph Header if desired">
+				    </div>
+				    <div class="form-group">
+					 <textarea class="form-control" rows="3" id="starterParagraph" placeholder="Enter discussion starter (only one paragraph at a time)">
+					 </textarea>
+					 </div>
+						<div>
+						  <button type="submit" class="btn btn-default">Submit</button>
+						   <button type="submit" class="btn btn-default">Done</button>
+					  </div>
+				</form></div>
+				</div> <!-- discussion pane -->
+		  <div class="tab-pane" id="thinkItThrough">
+				<div class="row-fluid" style="background: url(img/linedPaper.png)">
+					<h4><font color="444444">
+						Fill in this form to create a fill in the blank	form that is placed in the "Think it Through" section of the student lesson page.There is space for 2 blanks in every question, leave any parts you don't want to use blank and they will not appear on the student page.
+					</font></h4>
+				</div>
+				<form class="form-inline" role="form">
+				<p>Enter Question Information and hit "submit question", when all questions entered hit "done"</p>
+				   <div class="form-group">
+					    <label class="sr-only" for="questionText1">question 1.1</label>
+					    <input type="text" size="120" class="form-control input-sm" id="questionText1" placeholder="Enter Starting Text for Question">
+				    </div>
+				  <div class="form-group">
+					  
+					    <label class="sr-only" for="questionAnswer1">question1answer1</label>
+					    <input type="text" size = "20" class="form-control input-sm" id="questionAnswer1" placeholder="First blank answer">
+					  </div>
+					<div class="form-group">
+					    <label class="sr-only" for="questionText2">question 1.2</label>
+					    <input type="text" size="120" class="form-control input-sm" id="questionText2" placeholder="Enter Next Text for Question">
+				    </div>
+				  <div class="form-group">
+					    <label class="sr-only" for="question1answer2">questionAnswer2</label>
+					    <input type="text" size = "20" class="form-control input-sm" id="questionAnswer2" placeholder="Second blank answer">
+					  </div>
+					  <div class="form-group">
+					    <label class="sr-only" for="questionText3">question 1.3</label>
+					    <input type="text" size="120" class="form-control input-sm" id="questionText3" placeholder="Enter Final Text for Question">
+				    </div>
+						<div>
+						  <button type="submit" class="btn btn-default">Submit Question</button>
+						   <button type="submit" class="btn btn-default">Done</button>
+					  </div>
+				</form>
+		</div> <!-- Think it through tab pane -->
+			</div>
+			</div>
+			</div>
+				<div class="span6">
+	<div class="well well-lg">	
+	<h1>This will contain preview of the lesson being edited</h1>
+			</div>
+			</div>
+			</div>
+			</div>
+		<script>
+		  $(function () {
+		    $('#myTab a:last').tab('show')
+		  })
+		</script>
+		</div>
+<div class="span12">
+	<p>
+		This site is created by Christy Watson in cooperation with ..... . 
+	</p>
+</div>
+
+
+<script src="js/jquery-1.10.2.min.js"> </script>   
+<script src="js/bootstrap.min.js"></script>	 
+
+</body>
+</html>
+
