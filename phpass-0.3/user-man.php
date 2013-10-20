@@ -42,7 +42,7 @@ function get_post_var($var)
 	return $val;
 }
 
-header('Content-Type: text/plain');
+
 
 $op = $_POST['op'];
 if ($op !== 'new' && $op !== 'login' && $op !== 'change')
