@@ -3,10 +3,10 @@
 
 class DB {
 
-	protected $db_name = 'clwgeekLessons';
-	protected $db_user = 'clwgeekLessons';
-	protected $db_pass = 'cl8!2000#Mom';
-	protected $db_host = 'clwgeekLessons.db.11910712.hostedresource.com';
+	protected $db_name = 'xxx';
+	protected $db_user = 'xxx';
+	protected $db_pass = 'xxx';
+	protected $db_host = 'xxx';
 
     //open a connection to the database. Make sure this is called
     //on every page that needs to use the database.
