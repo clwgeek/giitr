@@ -1,13 +1,12 @@
 
-
 <?php
 
 	// In a real application, these should be in a config file instead
-	protected $db_host = 'clwgeekLessons.db.11910712.hostedresource.com';
+	protected $db_host = 'xxxx';
 	protected $db_port = 3306;
-	protected $db_user = 'clwgeekLessons';
-	protected $db_pass = 'cl8!2000#Mom';
-	protected $db_name = 'clwgeekLessons';
+	protected $db_user = 'xxx';
+	protected $db_pass = 'xxxx';
+	protected $db_name = 'xxxx';
 		
 	
     $db = mysqli::connect($db_host, $db_user, $db_pass, $db_name, $db_port); 
