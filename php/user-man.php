@@ -4,11 +4,11 @@ require '../PasswordHash.php';
 //require 'pwqcheck.php';
 
 // In a real application, these should be in a config file instead
-$db_host = 'clwgeekMyapp.db.11910712.hostedresource.com';
+$db_host = 'xxx';
 $db_port = 3306;
-$db_user = 'clwgeekMyapp';
-$db_pass = 'cl8!2000#Mom';
-$db_name = 'clwgeekMyapp';
+$db_user = 'xxx';
+$db_pass = 'xxx';
+$db_name = 'xxx';
 
 
 // Do we have the pwqcheck(1) program from the passwdqc package?
