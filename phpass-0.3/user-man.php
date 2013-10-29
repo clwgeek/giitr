@@ -6,11 +6,10 @@ require '../PasswordHash.php';
 //header('Content-Type: text/plain');
 
 // In a real application, these should be in a config file instead
-$db_host = 'clwgeekMyapp.db.11910712.hostedresource.com';
-$db_port = 3306;
-$db_user = 'clwgeekMyapp';
-$db_pass = 'cl8!2000#Mom';
-$db_name = 'clwgeekMyapp';
+$db_host = 'xxx
+$db_user = 'xxx';
+$db_pass = 'xxx';
+$db_name = 'xxx;
 
 
 // Base-2 logarithm of the iteration count used for password stretching
